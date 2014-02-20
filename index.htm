@@ -7,18 +7,18 @@
 
 <style>
     <!--
-    .g3 {
+    #g3 {
         height: 50px;
         width: 600px;
     }
 
-.g5 {
-    border: 1px solid black;
-}
+    #g5 {
+        border: 1px solid black;
+    }
 
-.g5 .range-1 {
-    background-color: white;
-}
+    #g5 .range-1 {
+        background-color: white;
+    }
 -->
     </style>
 
@@ -26,15 +26,15 @@
 
 <body>
 
-<div class="bulletgraph g3"></div>
+<div id="g3"></div>
 <br>
 <br>
 <br>
-<div class="bulletgraph g5"></div>
+<div id="g5"></div>
 
 <script>
 
-bullet_graph( ".g3",
+bullet_graph( "g3",
              {
                 "ticks": 5,
                 "range": [70,90,100],
@@ -42,7 +42,7 @@ bullet_graph( ".g3",
                 "target": 80
              });
 
-bullet_graph( ".g5",
+bullet_graph( "g5",
              {
              "ticks": 5,
              "range": [80,100],

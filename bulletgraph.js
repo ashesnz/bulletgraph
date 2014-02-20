@@ -49,7 +49,8 @@ function target( obj, num ) {
 
 
 function bullet_graph( id, options ) {
-    var obj = document.querySelectorAll(id)[0]
+    var obj = document.getElementById(id);
+    obj.className = obj.className + " bulletgraph";
 
     if ( !(options.ticks == undefined) ) {
         ticks( obj, options.ticks );
