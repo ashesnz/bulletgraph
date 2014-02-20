@@ -1,0 +1,8 @@
+{
+    "name": "bulletgraph",
+    "version": "0.0.1",
+    "main": ["bulletgraph.js", "bulletgraph.css"],
+    "ignore": [
+               "**/*.htm"
+               ]
+}
